@@ -1,0 +1,18 @@
+import(MCMCpack)
+import(hdrcde)
+##import(locfit)
+import(tcltk)
+
+export(
+       analyze2x2,
+       analyze2x2xK,
+       ConfoundingPlot,
+       ElicitPsi,
+       is.SimpleTable,
+       plot.SimpleTable,
+       summary.SimpleTable
+       )
+
+
+S3method(plot, SimpleTable)
+S3method(summary, SimpleTable)
