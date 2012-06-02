@@ -13,7 +13,7 @@ reported. Summaries of the prior distribution are also reported in
 situations where these summaries are numerically stable.  }
 
 \usage{
-summary.SimpleTable(object, estimand = c("ATE", "ATT", "ATC", 
+\method{summary}{SimpleTable}(object, estimand = c("ATE", "ATT", "ATC", 
                                          "RR", "RRT", "RRC", 
                                          "logRR", "logRRT", "logRRC"), 
                     percent = 95, ...)

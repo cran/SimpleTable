@@ -1,6 +1,6 @@
 import(MCMCpack)
 import(hdrcde)
-##import(locfit)
+import(locfit)
 import(tcltk)
 
 export(

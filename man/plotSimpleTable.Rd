@@ -8,7 +8,7 @@ object by plotting the psterior density of the prima facie and
 sensitivity analysis causal effects. }
 
 \usage{
-plot.SimpleTable(x, estimand = c("ATE", "ATT", "ATC", "RR", "RRT", "RRC", 
+\method{plot}{SimpleTable}(x, estimand = c("ATE", "ATT", "ATC", "RR", "RRT", "RRC", 
                                  "logRR", "logRRT", "logRRC"), 
                  percent = 95, plot.bounds = TRUE, plot.pf = TRUE, 
                  plot.sens = TRUE, plot.prior = FALSE, 

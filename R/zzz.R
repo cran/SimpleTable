@@ -16,17 +16,17 @@
    this.year <- substr(date, x[1], x[1] + attr(x, "match.length") - 1)
    
    # echo output to screen
-   cat("\n\n    //\n   // Bayesian Inference and Sensitivity Analysis for Causal Effects \n",
+   packageStartupMessage("\n\n    //\n   // Bayesian Inference and Sensitivity Analysis for Causal Effects \n",
        "  //        from 2 x 2 and 2 x 2 x K Tables in the Presence\n",
        " //             of Unmeasured Confounding (SimpleTable)\n", sep="")
-   cat("//                 Copyright (C) 2008", #this.year,
+   packageStartupMessage("//                 Copyright (C) 2008", #this.year,
       " Kevin M. Quinn\n\n", sep="")
 #   cat("##\n## Support provided by the U.S. National Science Foundation\n")
 #   cat("## (Grants SES-0350646 and SES-0350613)\n##\n")
-   require(MCMCpack, quietly=TRUE)
-   require(hdrcde, quietly=TRUE)
-   require(locfit, quietly=TRUE)
-   require(tcltk, quietly=TRUE)
+   #require(MCMCpack, quietly=TRUE)
+   #require(hdrcde, quietly=TRUE)
+   #require(locfit, quietly=TRUE)
+   #require(tcltk, quietly=TRUE)
 }
 
 
